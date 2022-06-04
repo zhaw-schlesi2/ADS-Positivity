@@ -1,4 +1,3 @@
-
 # Positivity
 
 A python utility to classify reviews into positive or negative with the help of machine learning and IMDB reviews for training
