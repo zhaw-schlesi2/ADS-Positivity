@@ -1,0 +1,19 @@
+Installieren der requirements
+
+pip3 install -r requirements.txt
+
+Anzeigen der Informationen
+
+positivity.py -h
+
+Anzeigen der Informationen zum collecten
+
+positivity.py collect -h
+
+Download
+
+Liste
+positivity.py collect -k k_9or9ayc9 -T .\movienames\top250.txt -d CollectedData
+
+Film
+positivity.py collect -k k_9or9ayc9 -t "Star Wars" -d CollectedData
