@@ -17,3 +17,23 @@ positivity.py collect -k k_9or9ayc9 -T .\movienames\top250.txt -d CollectedData
 
 Film
 positivity.py collect -k k_9or9ayc9 -t "Star Wars" -d CollectedData
+
+Trainieren
+positivity.py train -h
+
+positivity.py train -t ..\collected-training-data -m ..\pretrained-models\Model2.pth
+
+Öffnen des tensorboards
+positivity-tensorboard.sh
+127.0.0.1:6006
+
+Ausführen
+positivity.py run -h
+
+positivity.py run -m ..\pretrained-models\bertlstmOPT.pth.001
+
+positivity.py client -h
+
+positivity.py client -t "bad"
+positivity.py client -t "average"
+positivity.py client -t "very good"
