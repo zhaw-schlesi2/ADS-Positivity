@@ -1,0 +1,6 @@
+torch
+tensorboard
+jsonpickle
+requests
+zmq
+transformers>=4.0.0
